@@ -1,0 +1,56 @@
+#navbar1{
+   top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+
+    
+   
+    
+
+}
+.topheading{
+    background-color: rgb(22, 22, 54);
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  
+  }
+  .topheading h5{
+    margin: 10px;
+    color: white;
+  }
+
+.navbar a{
+    margin-right: 20px;
+    font-size: 1.4rem;
+    color: black;
+    margin-left: 2rem;
+    font-weight: 500;
+    transition:  0.3s ease;
+    border-bottom: 3px solid transparent;
+   text-decoration: none;
+
+}
+ #action{
+    color:  #00ffee;
+   
+}
+.navbar-brand img{
+    height: 50px;
+    width: 200px;
+}
+.social-icon a{
+    color: #00ffee;
+    padding: 0 10px;
+    font-size: 20px;
+
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img{
+        height: 32px;
+        width: 120px;
+    }
+  }

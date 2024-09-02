@@ -1,0 +1,125 @@
+.footer {
+    background-image: url('https://t3.ftcdn.net/jpg/05/00/76/74/240_F_500767402_TzmpKIy2lmJGk8BV9QqvNkdoKm0XvR2p.jpg');
+   padding: 20px 0;
+   background-size: cover;
+   text-align: center;
+   background-repeat: no-repeat;
+  
+ }
+ 
+ .footer-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: flex-start;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+ }
+ 
+ .footer-section {
+   flex: 1;
+   margin: 15px;
+   min-width: 250px;
+ }
+ 
+ .footer-section h3 {
+   font-size: 1.5rem;
+   /* margin-bottom: 15px; */
+   color: #00ffee;
+ }
+ 
+ .footer-section p,
+ .footer-section ul {
+   font-size: 0.9rem;
+   color: black;
+   line-height: 1.6;
+ }
+ 
+ .footer-section ul {
+   list-style-type: none;
+   padding: 0;
+   
+ }
+ 
+ .footer-section ul li {
+   margin-bottom: 8px;
+ }
+ 
+ .footer-section ul li i {
+   margin-right: 2px;
+ }
+ 
+ .footer-section ul li a {
+   color: black;
+   text-decoration: none;
+   text-align: left;
+ }
+ 
+ .footer-section ul li a:hover {
+   border-bottom: 3px solid #00ffee;
+   color: #00ffee;
+ }
+ 
+ .footer-bottom {
+   margin-top: 20px;
+   border-top: 1px solid #444;
+   padding-top: 15px;
+ }
+ 
+ .footer-bottom p {
+   font-size: 0.8rem;
+   color: black;
+ }
+ 
+ .footer-bottom a {
+   color: black;
+   text-decoration: none;
+ }
+ 
+ .footer-bottom a:hover {
+   text-decoration: underline;
+   color: #00ffee;
+ }
+ 
+.social-media {
+  display: flex;
+  border-bottom: 1px solid #444;
+  padding: .8rem;
+  justify-content: space-around;
+}
+
+.social-media p {
+  margin: 0;
+  font-size: 1.rem;
+  color: black;
+}
+
+
+.social-icons a {
+  color: #00ffee;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+
+ 
+ /* Responsive Design */
+ @media (max-width: 768px) {
+   .footer-container {
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   .footer-section {
+     margin: 5px 0;
+     text-align: center;
+   }
+   .social-media{
+    display: block;
+   }
+   .footer-section {
+    margin: 0;
+   }
+ }
